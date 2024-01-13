@@ -1,0 +1,26 @@
+{
+  "appName": {
+    "message": "阿里云数据地图搜索"
+  },
+  "appDescription": {
+    "message": "一款无与伦比的阿里云DataWorks快捷搜表扩展，让您可以在Chrome Omnibox上直接输入关键字并转跳至数据地图。"
+  },
+  "inputTableNameTip": {
+    "message": "至 DataWorks 数据地图"
+  },
+  "tableName": {
+    "message": "表名"
+  },
+  "searchResultPrefix": {
+    "message": "表详情"
+  },
+  "mcTable": {
+    "message": "MC 表"
+  },
+  "emrTable": {
+    "message": "EMR 表"
+  },
+  "holoTable": {
+    "message": "Hologres 表"
+  }
+}
