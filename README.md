@@ -15,13 +15,13 @@
 ### 应用安装 Extension Installation [link](https://chromewebstore.google.com/detail/dataworks-%E6%90%9C%E8%A1%A8/pchandealfkoepcpkddkijpfiglgjkgi?hl=en)
 
 - 此插件能将输入的搜索字跳转至 DataWorks 数据地图
-- 若需要在 Chrome URL 框上直接进行搜表，可参考此插件 [link](https://chromewebstore.google.com/detail/dataworks-%E6%90%9C%E8%A1%A8/pchandealfkoepcpkddkijpfiglgjkgi?hl=en)
+- 若需要进阶能力如在 Chrome URL 框上直接进行搜表，可参考此插件 [link](https://chromewebstore.google.com/detail/dataworks-%E6%90%9C%E8%A1%A8/pchandealfkoepcpkddkijpfiglgjkgi?hl=en)
 
 ### 操作影片
-- [YouTube](https://www.youtube.com/watch?v=aCjk6-mTys8)
+- [YouTube](https://www.youtube.com/watch?v=aNgb5kOtQCA)
 
-### URL 框搜索 (支持跳转 DataWorks 数据地图)
-![image](https://img.alicdn.com/imgextra/i2/O1CN01e2Nrqe1RDlwT2dL7Z_!!6000000002078-0-tps-1474-256.jpg)
+### URL 框搜索 (能根据输入文字判断地域、表类型并跳转 DataWorks 数据地图)
+![image](https://img.alicdn.com/imgextra/i3/O1CN01BkvmJr1EkCzKWAWyA_!!6000000000389-0-tps-1280-800.jpg)
 
 ## Table of Contents
 
