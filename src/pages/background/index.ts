@@ -75,7 +75,14 @@ const getRegionByInput = (textArr: string[] = []) => {
   let matches = 0;
   let temp = 0;
 
-  let keywords = ['shang', 'shanghai', 'cn-shanghai', '上海'];
+  let keywords = ['inner', '弹内'];
+  temp = intersection(textArr, keywords)?.length;
+  if (temp > matches) {
+    region = 'inner';
+    restVars = notIntersection(keywords, textArr);
+  }
+
+  keywords = ['shang', 'shanghai', 'cn-shanghai', '上海'];
   temp = intersection(textArr, keywords)?.length;
   if (temp > matches) {
     region = 'cn-shanghai';
