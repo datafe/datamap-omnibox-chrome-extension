@@ -6,6 +6,9 @@ export const getDmcHomeEndpoint = (region: string) => {
   try {
     if (!region) return result;
     switch (region) {
+      case 'inner':
+        result = 'https://dmc.dw.alibaba-inc.com/dm';
+        break;
       case 'cn-shanghai':
         result = 'https://dmc-cn-shanghai.data.aliyun.com/dm';
         break;
