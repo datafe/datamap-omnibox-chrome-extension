@@ -8,6 +8,8 @@ reloadOnUpdate('pages/background');
 const selfExtensionId = chrome?.runtime?.id;
 
 let currentTabId;
+let defaultRegion = 'cn-shanghai';
+let defaultTableType: TableType = 'ODPS';
 
 // default suggestion
 chrome.omnibox.onInputStarted.addListener(async function () {
@@ -69,7 +71,7 @@ const notIntersection = (array1 = [], array2 = []) => {
 }
 
 const getRegionByInput = (textArr: string[] = []) => {
-  let region = 'cn-shanghai';
+  let region = defaultRegion;
   let restVars: string[] = textArr || [];
 
   let matches = 0;
@@ -240,7 +242,7 @@ const getRegionByInput = (textArr: string[] = []) => {
 };
 
 const getTypeByInput = (textArr: string[] = []) => {
-  let type: TableType = 'ODPS';
+  let type: TableType = defaultTableType;
   let restVars: string[] = textArr || [];
 
   let matches = 0;
@@ -280,15 +282,18 @@ chrome.omnibox.onInputEntered.addListener(async function (text, disposition) {
   const filter1 = getRegionByInput(textArr);
   const region = filter1?.region;
   let restVars = filter1?.restVars;
+  defaultRegion = region; // set current region into default value
 
   const filter2 = getTypeByInput(restVars);
   const type = filter2?.type;
   restVars = filter2?.restVars;
+  defaultTableType = type; // set current table type into default value
 
-  const keyword = textArr?.length > 0 ? restVars?.join?.(',') : text;
+  const keyword = textArr?.length > 0 ? restVars?.join?.(' ') : text;
 
   const dmcHomeEndpoint = getDmcHomeEndpoint(region);
   const entityType = getDmcTablePrefix(type);
+
 
   chrome?.tabs?.create?.({ url: `${dmcHomeEndpoint}/search?entityType=${entityType}&keyword=${keyword}` }); // default
 
