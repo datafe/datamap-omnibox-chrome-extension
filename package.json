@@ -18,7 +18,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/datafe/chrome-extension-maxcompute-search-tables.git"
+    "url": "https://github.com/datafe/datamap-omnibox-chrome-extension.git"
   },
   "scripts": {
     "build": "tsc --noEmit && vite build",
