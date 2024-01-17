@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension-maxcompute-search-tables",
+  "name": "chrome-extension-datamap-search-tables",
   "version": "1.0.2",
-  "description": "chrome extension maxcompute search tables",
+  "description": "chrome extension datamap search tables",
   "keywords": [
     "dataservice",
     "API",
