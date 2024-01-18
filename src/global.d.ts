@@ -42,7 +42,7 @@ declare module '*.json' {
 
 /* ======== APP Types ====== */
 
-declare type TableType = 'ODPS' | 'emr' | 'holodb';
+declare type TableType = 'ODPS' | 'emr' | 'holodb' | 'hbase' | 'postgresql' | 'mysql' | 'ots' | 'cdh' | 'ads' | 'sqlserver' | 'oracle' | 'analyticdb_for_mysql' | 'hybriddb_for_postgresql' | 'dlf';
 
 
 declare interface TableInfo {
