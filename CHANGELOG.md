@@ -10,6 +10,10 @@ none
 
 ---------------------------------------------------------------------
 
+## V1.0.3
+### Updated
+1. update regions
+
 ## V1.0.2
 ### Updated
 1. add cached search info
