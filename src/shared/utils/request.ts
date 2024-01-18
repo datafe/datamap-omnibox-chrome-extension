@@ -96,7 +96,41 @@ export const getDmcTablePrefix = (type: TableType) => {
     case 'holodb':
       _type = 'holodb-table';
       break;
+    case 'hbase':
+      _type = 'hbase-table';
+      break;
+    case 'postgresql':
+      _type = 'postgresql-table';
+      break;
+    case 'mysql':
+      _type = 'mysql-table';
+      break;
+    case 'ots':
+      _type = 'ots-table';
+      break;
+    case 'analyticdb_for_mysql':
+      _type = 'analyticdb_for_mysql-table';
+      break;
+    case 'hybriddb_for_postgresql':
+      _type = 'hybriddb_for_postgresql-table';
+      break;
+    case 'dlf':
+      _type = 'dlf-table';
+      break;
+    case 'ads':
+      _type = 'ads-table';
+      break;
+    case 'sqlserver':
+      _type = 'sqlserver-table';
+      break;
+    case 'cdh':
+      _type = 'cdh-table';
+      break;
+    case 'oracle':
+      _type = 'oracle-table';
+      break;
   }
+
 
   return _type;
 }
