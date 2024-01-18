@@ -22,5 +22,353 @@
   },
   "holoTable": {
     "message": "Hologres Table"
+  },
+  "global": {
+    "message": "Global"
+  },
+  "consolePre": {
+    "message": "Pre"
+  },
+  "console": {
+    "message": "Console"
+  },
+  "dwConsole": {
+    "message": "DataWorks Console"
+  },
+  "hologresConsole": {
+    "message": "Hologres Console"
+  },
+  "mcConsole": {
+    "message": "MaxCompute Console"
+  },
+  "paiConsole": {
+    "message": "PAI Console"
+  },
+  "emrConsole": {
+    "message": "EMR Console"
+  },
+  "flinkConsole": {
+    "message": "Flink Console"
+  },
+  "holoweb": {
+    "message": "HoloWeb"
+  },
+  "newDataStudio": {
+    "message": "New Data Studio"
+  },
+  "newDataStudioPlugins": {
+    "message": "New Data Studio Plugins"
+  },
+  "dataStudio": {
+    "message": "Data Studio"
+  },
+  "dataMap": {
+    "message": "Data Map"
+  },
+  "dataService": {
+    "message": "Data Service"
+  },
+  "dataAnalytics": {
+    "message": "Data Analytics"
+  },
+  "dgc": {
+    "message": "DGC"
+  },
+  "dqc": {
+    "message": "DQC"
+  },
+  "di": {
+    "message": "Data Integration"
+  },
+  "normandy": {
+    "message": "Normandy"
+  },
+  "quanxi": {
+    "message": "Quanxi"
+  },
+  "model": {
+    "message": "Data Model"
+  },
+  "tag": {
+    "message": "Tag"
+  },
+  "inner": {
+    "message": "Inner"
+  },
+  "innerPre": {
+    "message": "Inner Pre"
+  },
+  "innerPreLocal": {
+    "message": "Inner Pre Local"
+  },
+  "innerLocal": {
+    "message": "Inner Local"
+  },
+  "shanghai": {
+    "message": "Shanghai"
+  },
+  "shanghaiPre": {
+    "message": "Shanghai Pre"
+  },
+  "shanghaiPreLocal": {
+    "message": "Shanghai Pre Local"
+  },
+  "shanghaiLocal": {
+    "message": "Shanghai Local"
+  },
+  "hangzhou": {
+    "message": "Hangzhou"
+  },
+  "hangzhouPre": {
+    "message": "Hangzhou Pre"
+  },
+  "hangzhouLocal": {
+    "message": "Hangzhou Pre Local"
+  },
+  "shenzhen": {
+    "message": "Shenzhen"
+  },
+  "beijing": {
+    "message": "Beijing"
+  },
+  "beijingPre": {
+    "message": "Beijing Pre"
+  },
+  "beijingLocal": {
+    "message": "Beijing Pre Local"
+  },
+  "chengdu": {
+    "message": "Chengdu"
+  },
+  "zhangjiakou": {
+    "message": "Zhangjiakou"
+  },
+  "wulanchabu": {
+    "message": "Wulanchabu"
+  },
+  "hongkong": {
+    "message": "Hong Kong"
+  },
+  "singapore": {
+    "message": "Singapore"
+  },
+  "sydney": {
+    "message": "Sydney"
+  },
+  "kualaLumpur": {
+    "message": "Kuala Lumpur"
+  },
+  "jakarta": {
+    "message": "Jakarta"
+  },
+  "mumbai": {
+    "message": "Mumbai"
+  },
+  "tokyo": {
+    "message": "Tokyo"
+  },
+  "siliconValley": {
+    "message": "Silicon Valley"
+  },
+  "virginia": {
+    "message": "Virginia"
+  },
+  "frankfurt": {
+    "message": "Frankfurt"
+  },
+  "london": {
+    "message": "London"
+  },
+  "dubai": {
+    "message": "Dubai"
+  },
+  "shanghaiFinance": {
+    "message": "Shanghai Finance"
+  },
+  "shenzhenFinance": {
+    "message": "Shenzhen Finance"
+  },
+  "beijingFinance": {
+    "message": "Beijing Finance"
+  },
+  "beijingGov": {
+    "message": "Beijing Gov"
+  },
+  "onebox": {
+    "message": "Onebox"
+  },
+  "oneboxDataWorksPrivate": {
+    "message": "Onebox DataWorks Private Env"
+  },
+  "oneboxProjects": {
+    "message": "Projects"
+  },
+  "dataWorks": {
+    "message": "DataWorks"
+  },
+  "dataWorksSetting": {
+    "message": "DataWorks Settings"
+  },
+  "dataset": {
+    "message": "Dataset"
+  },
+  "dataWorksPublicDatasets": {
+    "message": "DataWorks Datasets"
+  },
+  "common": {
+    "message": "Common"
+  },
+  "commonLink": {
+    "message": "Link"
+  },
+  "datasetLink": {
+    "message": "Dataset Link"
+  },
+  "openApiLink": {
+    "message": "Open API Link"
+  },
+  "oneboxPrivateEnvLink": {
+    "message": "Onebox Private Env"
+  },
+  "dcdLink": {
+    "message": "DCD Link"
+  },
+  "code": {
+    "message": "Code"
+  },
+  "codeHome": {
+    "message": "Home"
+  },
+  "anpm": {
+    "message": "anpm"
+  },
+  "anpmHome": {
+    "message": "Home"
+  },
+  "npm": {
+    "message": "npm"
+  },
+  "npmHome": {
+    "message": "Home"
+  },
+  "aone": {
+    "message": "Aone"
+  },
+  "aoneHome": {
+    "message": "Home"
+  },
+  "mds": {
+    "message": "Medusa"
+  },
+  "mdsHome": {
+    "message": "Home"
+  },
+  "df": {
+    "message": "Data Security Center"
+  },
+  "aem": {
+    "message": "AEM"
+  },
+  "aemHome": {
+    "message": "Home"
+  },
+  "okr": {
+    "message": "OKR"
+  },
+  "bffConsole": {
+    "message": "BFF Console"
+  },
+  "bffPlatform": {
+    "message": "BFF Platform"
+  },
+  "mock": {
+    "message": "Mock"
+  },
+  "f2etest": {
+    "message": "F2E Test"
+  },
+  "dcd": {
+    "message": "DCD"
+  },
+  "dcdHome": {
+    "message": "Home"
+  },
+  "uiCommand": {
+    "message": "Union URI"
+  },
+  "uiIcon": {
+    "message": "UI ICON"
+  },
+  "uiPalette": {
+    "message": "UI Palette"
+  },
+  "uiCodeInventory": {
+    "message": "UI Code"
+  },
+  "openApi": {
+    "message": "Open API"
+  },
+  "tps": {
+    "message": "TPS"
+  },
+  "commonHeader": {
+    "message": "Common Header"
+  },
+  "dataTracker": {
+    "message": "Data Tracker"
+  },
+  "uone": {
+    "message": "Uone"
+  },
+  "cc": {
+    "message": "Cloud Computing"
+  },
+  "dwfe": {
+    "message": "DataWorks FE"
+  },
+  "yuque": {
+    "message": "Yuque"
+  },
+  "zhihu": {
+    "message": "Zhihu"
+  },
+  "juejin": {
+    "message": "Juejin"
+  },
+  "medium": {
+    "message": "medium"
+  },
+  "ata": {
+    "message": "ATA"
+  },
+  "vscode": {
+    "message": "VS Code"
+  },
+  "vscodeExtension": {
+    "message": "VS Code Extension"
+  },
+  "github": {
+    "message": "GitHub"
+  },
+  "githubHome": {
+    "message": "Home"
+  },
+  "alibaba": {
+    "message": "Alibaba"
+  },
+  "aliyun": {
+    "message": "Aliyun"
+  },
+  "aliyunDeveloperCommunity": {
+    "message": "Aliyun Developer Community"
+  },
+  "bigData": {
+    "message": "Big Data"
+  },
+  "prd": {
+    "message": "PRD"
+  },
+  "ued": {
+    "message": "UED"
   }
 }
