@@ -8,6 +8,9 @@
   "inputTableNameTip": {
     "message": "Goto DataWorks Data Map"
   },
+  "contextMenuTitle": {
+    "message": "Alibaba Cloud Data Map: Search"
+  },
   "tableName": {
     "message": "Table"
   },

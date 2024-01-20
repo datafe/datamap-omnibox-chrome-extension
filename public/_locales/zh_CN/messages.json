@@ -8,6 +8,9 @@
   "inputTableNameTip": {
     "message": "至 DataWorks 数据地图"
   },
+  "contextMenuTitle": {
+    "message": "数据地图: 将选取文字进行搜索"
+  },
   "tableName": {
     "message": "表名"
   },
