@@ -11,6 +11,7 @@ const manifest = {
   description: '__MSG_appDescription__',
   omnibox: { 'keyword': 'dmc' },
   default_locale: "zh_CN",
+  permissions: ['contextMenus'],
   background: {
     service_worker: 'src/pages/background/index.js',
     type: 'module',
