@@ -25,6 +25,9 @@
 ### URL 框搜索 (能根据输入文字判断地域、表类型并跳转 DataWorks 数据地图)
 ![image](https://img.alicdn.com/imgextra/i1/O1CN01EMlqqU1p8mP6NOauT_!!6000000005316-0-tps-516-200.jpg)
 
+### 支持选取文字后透过右键进行表搜索
+![image](https://img.alicdn.com/imgextra/i3/O1CN01W9Hzbx1UsTzoeNLbv_!!6000000002573-0-tps-1280-800.jpg)
+
 ## Table of Contents
 
 - [Intro](#intro)

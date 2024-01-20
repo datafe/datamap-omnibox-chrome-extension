@@ -1,6 +1,6 @@
 {
   "name": "chrome-extension-datamap-search-tables",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "chrome extension datamap search tables",
   "keywords": [
     "dataservice",
@@ -12,7 +12,8 @@
     "Search",
     "Table",
     "Aliyun",
-    "Alibaba"
+    "Alibaba",
+    "Cloud"
   ],
   "author": "Samuel Hsin <caramels@gmail.com> (https://github.com/datafe)",
   "license": "Apache-2.0",
