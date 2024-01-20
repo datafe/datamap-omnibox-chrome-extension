@@ -283,6 +283,37 @@ const notIntersection = (array1 = [], array2 = []) => {
   return result;
 }
 
+// want bring which info from page content
+const contextType: chrome.contextMenus.ContextType = 'selection'; // ["page", "selection", "link", "editable", "image", "video",
+//   "audio"]
+
+const contextMenuId = 'data_map_omnibox';
+
+async function generateMenu() {
+
+  const contextMenuItem = [{
+    id: contextMenuId,
+    title: chrome.i18n.getMessage("contextMenuTitle"),
+    contexts: [contextType],
+    enabled: true,
+    children: null,
+  }];
+
+  for (let i = 0; i < contextMenuItem.length; i++) {
+    const item = contextMenuItem[i];
+    chrome.contextMenus.create({
+      id: item.id,
+      title: item.title,
+      enabled: item.enabled ?? true,
+      contexts: item.contexts,
+    });
+  }
+
+}
+
+// context menu
+chrome.runtime.onInstalled.addListener(d => chrome.contextMenus.removeAll(generateMenu));
+
 // default suggestion
 chrome.omnibox.onInputStarted.addListener(async function () {
   chrome.omnibox.setDefaultSuggestion({
@@ -669,6 +700,37 @@ chrome.omnibox.onInputEntered.addListener(async function (text, disposition) {
   const entityType = getDmcTablePrefix(type);
 
   chrome?.tabs?.create?.({ url: `${dmcHomeEndpoint}/search?entityType=${entityType}&keyword=${keyword}` }); // default
+
+});
+
+chrome.contextMenus.onClicked.addListener(async (info, tab) => {
+
+  const { selectionText, menuItemId } = info || {};
+  if (selectionText && menuItemId) {
+
+    const itemIdStr = String(menuItemId);
+
+    if (itemIdStr !== contextMenuId) return;
+
+    const filter1 = getRegionByInput();
+    const region = filter1?.region;
+    let restVars = filter1?.restVars;
+    defaultRegion = region; // set current region into default value
+
+    const filter2 = getTypeByInput(restVars);
+    const type = filter2?.type;
+    restVars = filter2?.restVars;
+    defaultTableType = type; // set current table type into default value
+
+    const keyword = selectionText;
+
+    const dmcHomeEndpoint = getDmcHomeEndpoint(region);
+    const entityType = getDmcTablePrefix(type);
+
+    chrome?.tabs?.create?.({ url: `${dmcHomeEndpoint}/search?entityType=${entityType}&keyword=${keyword}` }); // default
+
+
+  }
 
 });
 
