@@ -18,6 +18,7 @@
 
 - 此插件能将输入的搜索字跳转至 DataWorks 数据地图
 - 只需于 Chrome URL 框上打 dmc+Tab键 (或dmc+空白键) 即可呼起使用。敲入关键字、地域名及表类型，即跳至对应地域的数据地图，并填入搜索文字，如 hangzhou holo test，代表在杭州地域搜索 test 的 Hologres 表，而且插件会记住此次使用的地域与表类型，下次直接搜关键字即可。
+- 支持选取文字后透过右键将文字送至数据地图进行搜索
 - 地域支持 inner, shanghai, hangzhou, beijing, shenzhen, hongkong, singapore, tokyo 等
 - 表类型支持 maxcompute, emr, hologres, postgresql, mysql, ots, cdh, ads, sqlserver, oracle, analyticdb_for_mysql, hybriddb_for_postgresql, dlf
 - 若需要进阶能力如在 Chrome URL 框上直接进行搜表，可参考此插件 [link](https://chromewebstore.google.com/detail/dataworks-%E6%90%9C%E8%A1%A8/pchandealfkoepcpkddkijpfiglgjkgi?hl=en)
